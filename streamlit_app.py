@@ -10,10 +10,10 @@ st.write(
 )
 
 lambda_url = "https://9h14dzfc80.execute-api.us-east-1.amazonaws.com/dev/query"
-token =  st.text_input("Token", type="password")
+token =  "uKTikldPp4TuPh8hqNzM5vq6"
 
 
-if not token:
+if not lambda_url:
     st.info("Por favor, ingresa el token de respuesta para continuar.", icon="🗝️")
 else:
     # Crear una variable de estado de sesión para almacenar los mensajes.
